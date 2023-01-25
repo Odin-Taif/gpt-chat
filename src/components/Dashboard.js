@@ -2,7 +2,6 @@ import React, { useState } from "react";
 
 export default function Dashboard() {
   const [jobDescription, setJobDescription] = useState("");
-
   const [jobTitle, setJobTitle] = useState("");
   const [industry, setIndustry] = useState("");
   const [keyWords, setKeyWords] = useState("");
